@@ -1,14 +1,12 @@
 import React, { Component } from "react";
 import { Switch, Route, HashRouter } from "react-router-dom";
-import "./App.css";
-import styles from './styles.js';
-import Sidebar from "./components/sidebar";
-import ServerList from "./components/serverList";
-import AddServer from "./components/addServer";
-import EditServer from "./components/editServer";
-import CompanyList from "./components/companyList";
-import AddCompany from "./components/addCompany";
-import EditCompany from "./components/editCompany";
+import Sidebar from "./sidebar";
+import ServerList from "./serverList";
+import AddServer from "./addServer";
+import EditServer from "./editServer";
+import CompanyList from "./companyList";
+import AddCompany from "./addCompany";
+import EditCompany from "./editCompany";
 import { Nav, NavItem, Row, Input,InputGroup,InputGroupAddon, NavLink } from 'reactstrap';
 const sidebarWidth=300;
 const filterWidth=200;
@@ -60,7 +58,7 @@ export default class Navigation extends Component {
             }
           </Nav>
 
-          <Row style={styles.main}>
+          <Row className="main">
             <div style={{transition:"1s",width:sidebarWidth,position:'absolute', backgroundColor:'white', zIndex:50, ...this.state.displaySidebar?{}:{marginLeft:-sidebarWidth}}}>
               <Sidebar />
             </div>

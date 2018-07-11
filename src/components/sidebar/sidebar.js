@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { InputGroup, FormGroup, Nav, NavLink } from 'reactstrap';
 import Select from "react-select";
-import '../../App.css';
 
 export default class Sidebar extends Component {
   constructor(props){

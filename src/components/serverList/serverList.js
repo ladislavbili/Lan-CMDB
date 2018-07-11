@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Table, Button, Input } from "reactstrap";
-import "../../App.css";
 
 export default class ServerList extends Component {
   render() {
