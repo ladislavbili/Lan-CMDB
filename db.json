@@ -1,0 +1,189 @@
+{
+  "companies": [
+    {
+      "id": 0,
+      "title": "Company 1"
+    },
+    {
+      "title": "Company 25",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "title": "Company 3"
+    },
+    {
+      "id": 4,
+      "title": "Company 4"
+    },
+    {
+      "title": "aaa",
+      "id": 5
+    },
+    {
+      "title": "ddd",
+      "id": 6
+    },
+    {
+      "title": "Nova firma",
+      "id": 7
+    },
+    {
+      "title": "Firma",
+      "id": 8
+    }
+  ],
+  "assets": [
+    {
+      "id": 0,
+      "title": "Servers",
+      "link": "servers"
+    }
+  ],
+  "servers": [
+    {
+      "id": 0,
+      "host": "Hostname 1",
+      "company": {
+        "id": 3,
+        "title": "Company 3"
+      }
+    },
+    {
+      "host": "eeekjjj",
+      "company": {
+        "id": 2,
+        "title": "Company 25"
+      },
+      "id": 2
+    },
+    {
+      "host": "asd",
+      "company": {
+        "id": 6,
+        "title": "ddd"
+      },
+      "id": 3
+    },
+    {
+      "host": "sds",
+      "company": {
+        "id": 6,
+        "title": "ddd"
+      },
+      "id": 4
+    },
+    {
+      "host": "asdad",
+      "company": {
+        "id": 6,
+        "title": "ddd"
+      },
+      "id": 5
+    },
+    {
+      "host": "daddd",
+      "company": {
+        "id": 6,
+        "title": "ddd"
+      },
+      "id": 6
+    },
+    {
+      "host": "sadadd",
+      "company": {
+        "id": 6,
+        "title": "ddd"
+      },
+      "id": 7
+    },
+    {
+      "host": "adadda",
+      "company": {
+        "id": 6,
+        "title": "ddd"
+      },
+      "id": 8
+    },
+    {
+      "host": "adadadad",
+      "company": {
+        "id": 6,
+        "title": "ddd"
+      },
+      "id": 9
+    },
+    {
+      "host": "adadad",
+      "company": {
+        "id": 6,
+        "title": "ddd"
+      },
+      "id": 10
+    },
+    {
+      "host": "aaa 1",
+      "company": {
+        "id": 5,
+        "title": "aaa"
+      },
+      "id": 11
+    },
+    {
+      "host": "aaa 1",
+      "company": {
+        "id": 5,
+        "title": "aaa"
+      },
+      "id": 12
+    },
+    {
+      "host": "aaa 3",
+      "company": {
+        "id": 5,
+        "title": "aaa"
+      },
+      "id": 13
+    },
+    {
+      "host": "aaa 4",
+      "company": {
+        "id": 5,
+        "title": "aaa"
+      },
+      "id": 14
+    },
+    {
+      "host": "C4",
+      "company": {
+        "id": 4,
+        "title": "Company 4"
+      },
+      "id": 15
+    },
+    {
+      "host": "C5",
+      "company": {
+        "id": 4,
+        "title": "Company 4"
+      },
+      "id": 16
+    },
+    {
+      "host": "C5",
+      "company": {
+        "id": 4,
+        "title": "Company 4"
+      },
+      "id": 17
+    },
+    {
+      "host": "C6",
+      "company": {
+        "id": 4,
+        "title": "Company 4"
+      },
+      "id": 18
+    }
+  ]
+}
