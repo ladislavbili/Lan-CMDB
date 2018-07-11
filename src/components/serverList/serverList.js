@@ -19,7 +19,7 @@ export default class ServerList extends Component {
           <thead>
             <tr>
               <th style={{width:50}}></th>
-              <th>ID</th>
+              <th style={{width:50}}>ID</th>
               <th>Host</th>
               <th>Company</th>
             </tr>
